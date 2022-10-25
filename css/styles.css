@@ -80,6 +80,7 @@ img {
 }
 .mail-tel {
   display: flex;
+  align-items: center;
 }
 .nav-link-item:not(:last-child) {
   margin-right: 50px;
@@ -87,6 +88,33 @@ img {
 .contacts-mail-tel:not(:last-child) {
   margin-right: 50px;
 }
+.contacts-mail-tel::before {
+  content: "";
+  display: inline-flex;
+  width: 16px;
+  height: 16px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin-right: 10px;
+}
+.mail::before {
+  background-image: url(../img/Header-envelope\ \(hover\).svg);
+}
+.phone::before {
+  background-image: url(../img/Header-smartphone.svg);
+}
+/* .contact-phone::before {
+  content: " ";
+  display: inline-flex;
+  width: 16px;
+  height: 16px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin-right: 10px;
+  background-image: url(../img/Header-smartphone.svg);
+} */
 .logo {
   font-family: var(--secondary-font-family);
   font-weight: 700;
@@ -200,6 +228,33 @@ img {
   margin-left: 30px;
     flex-basis: calc((100% - 120px) / 4);
 }
+.festures-list::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--second-bcg-color);
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.icon-antenna::before {
+    background-image: url(../img/Features-antenna\ 1.svg);
+    background-size: 70px;
+  }
+  .icon-clock::before {
+    background-image: url(../img/Features-clock\ 1.svg);
+    background-size: 70px;
+  }
+  .icon-diagramm::before {
+    background-image: url(../img/Features-diagram\ 1.svg);
+    background-size: 70px;
+  }
+  .icon-astronaut::before {
+    background-image: url(../img/Features-astronaut\ 1.svg);
+    background-size: 70px;
+  }
 .features-titles {
   margin-bottom: 10px;
   font-family: var(--primary-font-family);
