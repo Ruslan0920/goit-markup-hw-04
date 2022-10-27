@@ -230,7 +230,20 @@ img {
   margin-left: 30px;
   flex-basis: calc((100% - 120px) / 4);
 }
-.festures-list::before {
+.box {
+height: 120px;
+background: var(--second-bcg-color);
+border-radius: 4px;
+margin-bottom: 30px;
+
+}
+.icon {
+  width: 70px;
+  height: 70px;
+  margin: 25px 100px;
+  }
+
+/* .festures-list::before {
   display: block;
   content: "";
   height: 120px;
@@ -240,8 +253,8 @@ img {
   background-color: var(--second-bcg-color);
   border-radius: 4px;
   margin-bottom: 30px;
-}
-.icon-antenna::before {
+} */
+/* .icon-antenna::before {
   background-image: url(../img/Features-antenna\ 1.svg);
   background-size: 70px;
 }
@@ -256,7 +269,7 @@ img {
 .icon-astronaut::before {
   background-image: url(../img/Features-astronaut\ 1.svg);
   background-size: 70px;
-}
+} */
 .features-titles {
   margin-bottom: 10px;
   font-family: var(--primary-font-family);
@@ -344,7 +357,14 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-
+.soclinks {
+  display: flex;
+}
+.team-social-links {
+  width: 44px;
+  height: 44px;
+  outline: 1px solid tomato;
+}
 /* ===END OUR TEAM=== */
 
 /* ===START FOOTER=== */
