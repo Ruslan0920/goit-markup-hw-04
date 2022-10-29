@@ -358,29 +358,33 @@ margin-bottom: 30px;
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.soclinks {
+.social-links {
   display: flex;
-}
+  }
 .team-social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
-  /* outline: 1px solid tomato; */
-  /* background-color: #188ce8; */
+  margin-bottom: 30px;
   border-radius: 50%;
-}
+  fill: #AFB1B8;
+  }
 .team-social-links:hover {
   background-color: #2196F3;
+  fill: #FFFFFF;
+}
+.icon-social {
+  width: 20px;
+  height: 20px;
 }
 .link-instagram {
   margin-right: 10px;
-  margin-bottom: 30px;
   margin-left: 32px;
 }
 .link-twitter {
   margin-right: 10px;
-}
-.link-twitter:hover {
-  fill: #FFFFFF;;
 }
 .link-facebook {
   margin-right: 10px;
@@ -388,17 +392,39 @@ margin-bottom: 30px;
 .link-linkedin {
   margin-right: 32px;
 }
-.icon-social {
-  width: 20px;
-  height: 20px;
-  fill: #AFB1B8;
-  margin: 12px 12px;
-}
-.icon-social:hover {
-  fill: #FFFFFF;
-}
+
 /* ===END OUR TEAM=== */
 
+/* ===START CLIENTS=== */
+
+.clients-item {
+  display: flex;
+}
+.clients-link {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  fill: #AFB1B8;
+  margin-right: 30px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+.clients-link:hover {
+border-color: #2196F3;
+fill: #2196F3;
+}
+.clients-link:last-child {
+  margin-right: 0;
+}
+.our-clients {
+  width: 106px;
+  height: 60px;
+}
+/* .our-clients:hover {
+fill: #2196F3;
+} */
 /* ===START FOOTER=== */
 
 .footer-block {
