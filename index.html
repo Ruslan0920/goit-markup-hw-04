@@ -45,13 +45,19 @@
         <ul class="mail-tel">
           <li class="contacts-mail-tel mail">
             <a class="contact-mail link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
+              >info@devstudio.com
+              <svg class="icon-header-mail">
+                <use href="./img/sprite.svg#icon-envelope"></use>
+              </svg>
+            </a>
           </li>
           <li class="contacts-mail-tel phone">
             <a class="contact-phone link" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
+              >+38 096 111 11 11
+              <svg class="icon-header-phone">
+                <use href="./img/sprite.svg#icon-smartphone"></use>
+              </svg>
+            </a>
           </li>
         </ul>
       </div>
@@ -387,7 +393,8 @@
     </main>
     <footer class="footer-block">
       <div class="footer-content container">
-        <a class="logo-footer link" href=""
+        <div class="left-side">
+<a class="logo-footer link" href=""
           ><span class="letter">Web</span>Studio</a
         >
         <address class="footer-contacts">
@@ -413,39 +420,41 @@
             </li>
           </ul>
         </address>
-      </div>
-      <div>
-        <h2>приєднуйтесь</h2>
-        <ul class="footer-social-links">
-                  <li class="footer-social-links-list">
-                    <a class="footer-social-links link-instagram" href="">
-                      <svg class="icon-social">
-                        <use href="./img/sprite.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="footer-social-links-list">
-                    <a class="footer-social-links link-twitter" href="">
-                      <svg class="icon-social">
-                        <use href="./img/sprite.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="footer-social-links-list">
-                    <a class="footer-social-links link-facebook" href="">
-                      <svg class="icon-social">
-                        <use href="./img/sprite.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="footer-social-links-list">
-                    <a class="footer-social-links link-linkedin" href="">
-                      <svg class="icon-social">
-                        <use href="./img/sprite.svg#icon-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
+        </div>
+        
+        <div class="footer-social">
+          <h2 class="footer-title">приєднуйтесь</h2>
+          <ul class="footer-social-items">
+            <li class="footer-social-links-list">
+              <a class="footer-social-links link-instagram" href="">
+                <svg class="icon-social">
+                  <use href="./img/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-links-list">
+              <a class="footer-social-links link-twitter" href="">
+                <svg class="icon-social">
+                  <use href="./img/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-links-list">
+              <a class="footer-social-links link-facebook" href="">
+                <svg class="icon-social">
+                  <use href="./img/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-links-list">
+              <a class="footer-social-links link-linkedin" href="">
+                <svg class="icon-social">
+                  <use href="./img/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
