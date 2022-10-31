@@ -466,15 +466,15 @@ margin-bottom: 30px;
 }
 .footer-title {
   display: inline-block;
-font-family: var(--primary-font-family);
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #FFFFFF;
-margin-top: 12px;
-margin-bottom: 20px;
+  font-family: var(--primary-font-family);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 12px;
+  margin-bottom: 20px;
 }
 .footer-social-links-list {
   display: flex;
@@ -486,7 +486,6 @@ margin-bottom: 20px;
   height: 44px;
   border-radius: 50%;
   /* background-color: #2196F3; */
-  /* margin-top: 150px; */
   margin-left: 10px;
 }
 .footer-social-links-list:first-child {
