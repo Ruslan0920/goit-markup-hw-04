@@ -132,11 +132,7 @@ img {
 }
 .icon-header {
   margin-right: 10px;
-
 }
-/* .icon-header-phone {
-  margin-right: 10px;
-} */
 .mail-tel a {
   font-family: var(--primary-font-family);
   font-style: normal;
@@ -234,8 +230,6 @@ margin-bottom: 30px;
 
 }
 .icon {
-  width: 70px;
-  height: 70px;
   margin: 25px 100px;
   }
 
@@ -374,10 +368,6 @@ margin-bottom: 30px;
   background-color: #2196F3;
   fill: #FFFFFF;
 }
-.icon-social {
-  width: 20px;
-  height: 20px;
-}
 
 /* ===END OUR TEAM=== */
 
@@ -405,10 +395,6 @@ margin-bottom: 30px;
 .clients-link:focus {
   border-color: #2196F3;
   fill: #2196F3;
-}
-.our-clients {
-  width: 106px;
-  height: 60px;
 }
 
 /* ===START FOOTER=== */
@@ -526,6 +512,7 @@ margin-bottom: 30px;
 .portfolio-btn:focus {
   background-color: var(--third-bcg-color);
   color: var(--fourth-text-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .portfolio-btn.active {
   background-color: var(--third-bcg-color);
@@ -539,8 +526,7 @@ margin-bottom: 30px;
   margin-right: 30px;
   margin-bottom: 30px;
   flex-basis: calc((100% - 60px) / 3);
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+
 }
 .portfolio-list:nth-child(3n) {
   margin-right: 0;
@@ -572,4 +558,9 @@ margin-bottom: 30px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+}
+
+.portfolio-list:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
