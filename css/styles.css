@@ -79,6 +79,9 @@ img {
   display: flex;
   align-items: center;
 }
+.nav-link-item {
+  position: relative;
+}
 .nav-link-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -108,9 +111,20 @@ img {
 .nav-list-link:hover,
 .nav-list-link:focus {
   color: var(--third-text-color);
-}
+  }
 .current {
   color: var(--third-text-color);
+  }
+.nav-list-link::after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  top: 45px;
+  right: 1px;
+  border-radius: 2px;
+  background-color: #2196F3;
+  opacity: 0.5;
 }
 .mail-tel {
   display: flex;
@@ -585,8 +599,38 @@ img {
 }
 .portfolio-list-link {
   display: block;
+  position: relative;
+  overflow: hidden;
 }
+
 .portfolio-list-link:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.portfolio-list-link:hover .overlay {
+  transform: translatex(0);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 294px;
+  background-color: rgba(33, 150, 243, 0.9);;
+/* opacity: 0; */
+  transform: translatex(-100%);
+  transition: transform 250ms ease;
+}
+.overlay-description {
+  padding: 63px 24px;
+
+  font-family: var(--primary-font-family);
+font-size: 18px;
+line-height: 1.56;
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+
+
 }
